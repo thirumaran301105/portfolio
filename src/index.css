@@ -121,6 +121,33 @@ body {
   animation: shimmer 4s linear infinite;
 }
 
+/* ─── MARQUEE ─── */
+
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.marquee-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 3rem;
+  width: max-content;
+  animation: marquee linear infinite;
+  will-change: transform;
+}
+
+/* 🔥 KEYFRAMES (MOST IMPORTANT PART) */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 /* ─── GLASS CARD ─── */
 .glass {
   background: rgba(255, 255, 255, 0.02);

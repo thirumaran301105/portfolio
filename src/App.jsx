@@ -34,8 +34,10 @@ function App() {
       <main className="relative z-10">
         <Hero />
         <div className="marquee-divider border-y border-white/5 py-4">
-          <div className="marquee-wrapper overflow-hidden">
-            <div className="marquee-inner gap-12 flex items-center" style={{ animationDuration: '25s' }}>
+          <div className="marquee-wrapper">
+            <div className="marquee-inner" style={{ animationDuration: '25s' }}>
+              
+              {/* 🔁 CONTENT (SET 1) */}
               <span className="font-display text-4xl grad-cyan opacity-30 px-8">ROBOTICS</span>
               <span className="text-white/10 text-2xl">✦</span>
               <span className="font-display text-4xl text-slate-600 px-8">MACHINE LEARNING</span>
@@ -44,6 +46,8 @@ function App() {
               <span className="text-white/10 text-2xl">✦</span>
               <span className="font-display text-4xl text-slate-600 px-8">FULL STACK</span>
               <span className="text-white/10 text-2xl">✦</span>
+
+              {/* 🔁 CONTENT (SET 2 - DUPLICATE FOR LOOP) */}
               <span className="font-display text-4xl grad-cyan opacity-30 px-8">ROBOTICS</span>
               <span className="text-white/10 text-2xl">✦</span>
               <span className="font-display text-4xl text-slate-600 px-8">MACHINE LEARNING</span>
@@ -52,6 +56,7 @@ function App() {
               <span className="text-white/10 text-2xl">✦</span>
               <span className="font-display text-4xl text-slate-600 px-8">FULL STACK</span>
               <span className="text-white/10 text-2xl">✦</span>
+
             </div>
           </div>
         </div>
