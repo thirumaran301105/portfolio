@@ -51,7 +51,6 @@ export default function Navbar({ scrolled }) {
               onClick={() => scrollTo('contact')}
               className="btn-primary"
             >
-              <span>Hire Me</span>
             </button>
           </div>
 
