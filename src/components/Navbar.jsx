@@ -77,7 +77,7 @@ export default function Navbar({ scrolled }) {
         </button>
 
         {/* Profile photo */}
-        <div className="relative mb-6 mt-20">
+        <div className="relative mb-6 mt-16">
           <div className="absolute -inset-3 bg-gradient-to-br from-cyan/20 via-violet/20 to-fuchsia-500/20 rounded-full blur-xl"></div>
           <div className="relative w-40 h-40 rounded-full overflow-hidden border-2 border-white/10 shadow-xl">
             <img src={blazerImage} alt="Thirumaran" className="w-40 h-40 object-fit object-center" />
