@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.eslintcache
+
+# Vite specific
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: coverage reports
+coverage/
+
+# Optional: local files
+*.local
+
+# Parcel (just in case)
+.parcel-cache/
+
+# Tailwind
+tailwind.config.js.lock
+
+# Misc
+*.bak
+*.tmp
+
+CHECKLIST.md
+DOCUMENTATION.md
+PROJECT_INDEX.md
+README_FIRST.txt
+QUICK_START.md
+README_FIRST.txt
