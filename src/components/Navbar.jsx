@@ -73,7 +73,7 @@ export default function Navbar({ scrolled }) {
           onClick={() => setMobileMenuOpen(false)}
           className="absolute top-6 right-6 text-slate-400 text-2xl"
         >
-          ✕
+          
         </button>
 
         {/* Profile photo */}
