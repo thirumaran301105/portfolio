@@ -165,7 +165,7 @@ export default function ResumeModal({ isOpen, onClose, onDownload }) {
             onClick={onDownload}
             className="px-6 py-2 rounded-lg bg-gradient-to-r from-cyan to-purple-600 text-white font-semibold hover:shadow-lg hover:shadow-cyan/50 transition-all"
           >
-            📥 Download Resume
+            Download Resume
           </button>
         </div>
       </div>

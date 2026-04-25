@@ -24,7 +24,7 @@ export default function Contact() {
       emoji: '💼',
       label: 'LinkedIn',
       value: 'linkedin.com/in/thirumaran',
-      href: 'https://www.linkedin.com/in/thirumaran-b-a587532b9/',
+      href: 'https://www.linkedin.com/in/thirumaran301105/',
       hoverColor: 'group-hover:border-cyan/40',
       textColor: 'group-hover:text-cyan',
     },

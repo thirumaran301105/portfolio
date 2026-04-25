@@ -216,7 +216,7 @@ export async function generateAndDownloadResume() {
       children.push(orgLine(`${inst}   |   ${grade}`))
       children.push(spacer(2))
     })
-
+    children.push(spacer(4))
     // Projects
     children.push(sectionHead("Key Projects"))
 
