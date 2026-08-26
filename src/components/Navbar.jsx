@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import blazerImage from './assests/Blazer new.jpeg'
+import blazerImage from './assests/maran blazer.png'
 
 export default function Navbar({ scrolled }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
