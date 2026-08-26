@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { useRevealOnScroll, useCounterAnimation } from '../../hooks/useAnimations'
-import blazerImage from "../assests/Blazer new.jpeg";
+import blazerImage from "../assests/maran blazer.png";
 import ResumeModal from '../ResumeModal'
 import { generateAndDownloadResume } from '../../utils/resumeGenerator'
 
